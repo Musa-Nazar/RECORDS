@@ -1,0 +1,177 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto',sans-serif;
+}
+body{
+  background: url('img/mosque.jpg') center center/cover no-repeat;
+  width: 100%;
+  height: 100vh;
+  /* overflow: hidden; */
+}
+.big-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.green-t{ color: green;}
+.container{
+  background-color: #ddd;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  overflow: hidden;
+}
+td:last-child{
+  border: none;
+}
+.addrem{
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  color: #ddd;
+  font-weight: 700;
+  text-align: center;
+}
+h1{
+  margin-bottom: 10px;
+  text-align: center;
+}
+label{
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 18px;
+}
+input{
+  width: 100%;
+  height: 30px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.fa-remove{ color: red;}
+table{
+  width: 90%;
+  margin: auto;
+}
+tr{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 100px;
+}
+th,td{
+  margin-bottom: 10px;
+  font-weight: 200;
+  text-align: left;
+  font-size: 18px;
+  width: 30%;
+  
+}
+
+td:last-child
+th:last-child{ 
+  text-align: center;
+  width: 10%;
+}
+th{
+  font-weight: 800;
+}
+.margin{
+  margin-top: 10px;
+}
+.submitBtn{
+  padding: 10px;
+  text-align: center;
+  padding-bottom: 25px;
+  border-radius: 5px;
+  border-color: #ddd;
+  background-color: green;
+  color: #fff;
+}
+.p{
+  transition: all 0.2s ease;
+  transform: scale(0);
+  background-color: #ddd;
+  position: fixed;
+  top: 40vh; 
+  left: 20%;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  height: 100px; 
+  padding: 10px;
+  text-align: center;
+}
+.gbtn,.rbtn{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #fff;
+}
+.tbtn{
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border-color: transparent;
+  color: #fff;
+  width: 60%;
+  background-color: green;
+}
+.container2{
+  background-color: #ddd;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+tr{
+ border-top: 1px dotted #fff;
+}
+tr:first-child{
+    border: none;
+}
+td:last-child{
+    border: none;
+}
+img{
+  height: 150px;
+  margin-top: 10px;
+  width: 100%;
+  display: none;
+}
+.totalOutput{
+  margin: 1rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+.gbtn{ background-color: green;}
+.rbtn{ background-color: red;}
+@media (max-width:768px){
+  .container{
+    width: 98%;
+  }
+  td:last-child,
+  th:last-child{ 
+  text-align: right;
+  width: 1%;
+  }
+  tr{
+    margin-left: 0;
+  }
+  table{
+    width: 97%;
+  }
+}
+.rem{
+    border: none;
+}
