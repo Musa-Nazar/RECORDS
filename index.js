@@ -82,6 +82,7 @@ document.body.addEventListener('click',(e)=>{
     yesBtn.addEventListener('click',()=>{
     e.target.parentElement.parentElement.remove();
     addrem.textContent='Record removed';
+    addrem.style.display =`block`;
     addrem.style.background=`red`;
     setTimeout(()=>{
       addrem.style.display=`none`;
