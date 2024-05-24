@@ -103,6 +103,7 @@ th{
   color: #fff;
   width: 80%;
   margin: auto;
+  flex: none;
 }
 .p{
   transition: all 0.2s ease;
