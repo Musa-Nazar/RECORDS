@@ -102,6 +102,7 @@ th{
   background-color: green;
   color: #fff;
   width: 80%;
+  margin: auto;
 }
 .p{
   transition: all 0.2s ease;
