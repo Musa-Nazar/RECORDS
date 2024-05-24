@@ -94,6 +94,7 @@ th{
   margin-top: 10px;
 }
 .submitBtn{
+  display: block;
   padding: 10px;
   text-align: center;
   padding-bottom: 25px;
