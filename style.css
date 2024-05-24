@@ -58,6 +58,9 @@ input{
 input:placeholder{
     font-family: Roboto,sans-serif;
 }
+input:focus{
+    outline: none;
+}
 .fa-remove{ color: red;}
 table{
   width: 90%;
@@ -98,6 +101,7 @@ th{
   border-color: #ddd;
   background-color: green;
   color: #fff;
+  width: 80%;
 }
 .p{
   transition: all 0.2s ease;
