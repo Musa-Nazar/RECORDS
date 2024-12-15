@@ -181,6 +181,9 @@ img{
   .container{
     width: 98%;
   }
+  form div{
+    width: 80%;
+  }
   td:last-child,
   th:last-child{ 
   text-align: right;
