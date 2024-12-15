@@ -157,9 +157,6 @@ th{
   justify-content: center;
   align-items: center;
 }
-tr{
- border-top: 1px dotted #fff;
-}
 tr:first-child{
     border: none;
 }
@@ -197,6 +194,9 @@ img{
   }
   tr{
     margin-left: 0;
+  }
+  tr{
+    border-top: 1px dotted #fff;
   }
   table{
     width: 97%;
