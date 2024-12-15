@@ -49,13 +49,13 @@ label{
 }
 form{
   width: 100%;
+}
+form div {
+  width: 100%
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-form div {
-  width: 100%
 }
 input{
   width: 70%;
