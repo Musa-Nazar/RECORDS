@@ -107,12 +107,11 @@ th{
   display: block;
   padding: 10px;
   text-align: center;
-  padding-bottom: 25px;
   border-radius: 5px;
   border-color: #ddd;
   background-color: green;
   color: #fff;
-  width: 80%;
+  width: 50%;
   margin: auto;
   flex: none;
 }
