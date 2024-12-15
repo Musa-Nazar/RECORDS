@@ -82,6 +82,8 @@ tr{
   justify-content: space-between;
   align-items: center;
   margin-left: 100px;
+  padding: 0.625rem;
+  border-color: tranparent;
 }
 th,td{
   margin-bottom: 10px;
@@ -182,7 +184,11 @@ img{
     width: 98%;
   }
   form div{
-    width: 80%;
+    width: 90%;
+  }
+  .submitBtn {
+    width: 65%;
+    padding: 1rem;
   }
   td:last-child,
   th:last-child{ 
