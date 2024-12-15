@@ -47,6 +47,12 @@ label{
   font-weight: 900;
   font-size: 18px;
 }
+form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 input{
   width: 70%;
   font-size: 1rem;
