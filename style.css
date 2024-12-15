@@ -83,7 +83,7 @@ tr{
   align-items: center;
   margin-left: 100px;
   padding: 0.625rem;
-  border-color: tranparent;
+  border-color: tranparent !important;
 }
 th,td{
   margin-bottom: 10px;
